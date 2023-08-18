@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from '../Nav/nav';
+import './admin.css';
 
 const Admin = () => {
   const [users, setUsers] = useState([]);
@@ -22,6 +23,8 @@ const Admin = () => {
               <th>Name</th>
               <th>Username</th>
               <th>Email</th>
+              <th></th>
+              <th></th>
             </tr>
           </thead>
           <tbody>
