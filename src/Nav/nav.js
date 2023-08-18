@@ -41,6 +41,11 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
+          <NavLink to="/admin" className="navbar-link">
+            Admin
+          </NavLink>
+        </li>
+        <li>
           <NavLink to="/profile" className="navbar-link">
             Profile
           </NavLink>
